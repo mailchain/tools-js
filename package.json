@@ -1,0 +1,11 @@
+{
+  "name": "@mailchain/tools-js",
+  "version": "0.0.2",
+  "description": "Mailchain Tools - useful tools and functions for working with the Mailchain API",
+  "author": "Mailchain",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mailchain/tools-js.git"
+  }
+}
