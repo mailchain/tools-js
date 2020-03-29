@@ -16,7 +16,7 @@ exports.parseAddressFromMailchain = function (address) {
  * see tests for conditions 
  */
 exports.validateEnsName = function (value) {
-  let regex = new RegExp('^([0-9a-zA-Z][0-9a-zA-Z\-]{2,}[\.]){1,}[a-zA-Z]{2,}$')
+  let regex = new RegExp('^([0-9a-zA-Z]{1,}[0-9a-zA-Z\-]{0,}[\.]){1,}[a-zA-Z]{2,}$')
   return regex.test(value)
 }
 
