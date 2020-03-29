@@ -7,6 +7,8 @@ exports.parseAddressFromMailchain = function (address) {
   var regexMailAddr = new RegExp('<0x[0-9a-fA-Z]{40}[@].+>$');
   if (regexMailAddr.test(address)) {
     return address.substr(1, address.indexOf('@') - 1);
+  } else {
+    return ''
   }
 }
 
